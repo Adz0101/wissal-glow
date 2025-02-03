@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Wissal Glow - Radiance in Every Mask</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background: linear-gradient(to right, #ff758c, #ff7eb3);
+            color: #333;
+        }
+        header {
+            background: #ff4081;
+            padding: 20px;
+            text-align: center;
+            color: white;
+            font-size: 24px;
+        }
+        nav ul {
+            list-style: none;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+            background: #ff80ab;
+            flex-wrap: wrap;
+        }
+        nav ul li {
+            margin: 10px;
+        }
+        nav ul li a {
+            text-decoration: none;
+            color: white;
+            font-weight: bold;
+        }
+        .hero {
+            text-align: center;
+            padding: 50px;
+            background: #ff4081;
+            color: white;
+        }
+        .btn {
+            background: #d81b60;
+            color: white;
+            padding: 10px 20px;
+            border: none;
+            cursor: pointer;
+            font-size: 18px;
+        }
+        .btn:hover {
+            background: #c2185b;
+        }
+        .about, .products, .testimonials, .contact {
+            padding: 40px;
+            text-align: center;
+            background: #ffccd5;
+        }
+        .product-list {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            gap: 20px;
+        }
+        .product {
+            background: white;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0px 4px 8px rgba(0,0,0,0.1);
+            text-align: center;
+            max-width: 300px;
+        }
+        .product img {
+            width: 100%;
+            max-width: 200px;
+            border-radius: 10px;
+            margin-bottom: 10px;
+        }
+        footer {
+            text-align: center;
+            padding: 20px;
+            background: #ff4081;
+            color: white;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        Wissal Glow
+    </header>
+    <nav>
+        <ul>
+            <li><a href="#about">About</a></li>
+            <li><a href="#products">Products</a></li>
+            <li><a href="#testimonials">Testimonials</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
+    
+    <section class="hero">
+        <h1>Experience the Glow with Wissal Glow</h1>
+        <p>Premium collagen facial masks for youthful and radiant skin.</p>
+        <a href="#products" class="btn">Shop Now</a>
+    </section>
+
+    <section id="about" class="about">
+        <h2>About Wissal Glow</h2>
+        <p>At Wissal Glow, we believe in the power of collagen to rejuvenate and nourish your skin. Our masks are infused with the finest ingredients to give you a spa-like experience at home.</p>
+    </section>
+
+    <section id="products" class="products">
+        <h2>Our Products</h2>
+        <div class="product-list">
+            <div class="product">
+                <img src="images/mask1.jpg" alt="Hydrating Collagen Mask">
+                <h3>Hydrating Collagen Mask</h3>
+                <p>Deep hydration for a refreshed and plump look.</p>
+                <button class="btn">Buy Now</button>
+            </div>
+            <div class="product">
+                <img src="images/mask2.jpg" alt="Brightening Collagen Mask">
+                <h3>Brightening Collagen Mask</h3>
+                <p>Enhances your natural glow with vitamin-infused collagen.</p>
+                <button class="btn">Buy Now</button>
+            </div>
+            <div class="product">
+                <img src="images/mask3.jpg" alt="Firming Collagen Mask">
+                <h3>Firming Collagen Mask</h3>
+                <p>Boosts elasticity for a youthful complexion.</p>
+                <button class="btn">Buy Now</button>
+            </div>
+        </div>
+    </section>
+
+    <section id="testimonials" class="testimonials">
+        <h2>What Our Customers Say</h2>
+        <p>"My skin has never felt so soft and radiant!" - Sarah L.</p>
+        <p>"Absolutely love the results! Highly recommend Wissal Glow." - Emily R.</p>
+    </section>
+
+    <section id="contact" class="contact">
+        <h2>Get in Touch</h2>
+        <form>
+            <input type="text" placeholder="Your Name" required>
+            <input type="email" placeholder="Your Email" required>
+            <textarea placeholder="Your Message" required></textarea>
+            <button type="submit" class="btn">Send Message</button>
+        </form>
+    </section>
+
+    <footer>
+        <p>&copy; 2025 Wissal Glow. All Rights Reserved.</p>
+    </footer>
+</body>
+</html>
